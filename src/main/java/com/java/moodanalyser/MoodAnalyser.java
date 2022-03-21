@@ -1,16 +1,8 @@
 package com.java.moodanalyser;
 
 public class MoodAnalyser {
-	private String msg;
 
-	public MoodAnalyser() {
-	}
-
-	public MoodAnalyser(String msg) {
-		this.msg = msg;
-	}
-
-	public String analyzeMood() {
+	public String analyseMood(String msg) {
 		if (msg.contains("Sad")) {
 			return "Sad";
 		}
